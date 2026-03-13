@@ -588,7 +588,7 @@
 <!-- ─── HERO ──────────────────────────────────────────────────────────────── -->
 <div class="hero">
   <div class="wrap">
-    <div class="badge fade-up"><span class="badge-dot"></span> Free Chrome Extension &nbsp;·&nbsp; Open Source &nbsp;·&nbsp; No Account Needed</div>
+    <div class="badge fade-up"><span class="badge-dot"></span> v3.0 &nbsp;·&nbsp; Free Chrome Extension &nbsp;·&nbsp; Open Source &nbsp;·&nbsp; No Account Needed</div>
 
     <h1 class="fade-up">
       Stop retyping what<br/>
@@ -596,9 +596,9 @@
     </h1>
 
     <p class="hero-sub fade-up">
-      <strong>YouTube Caption Copier</strong> lets you select any text visible on a YouTube
-      video — product names, book titles, slide content, quotes — and paste it
-      anywhere instantly. No screenshots. No toggling tabs. No typos.
+      <strong>YouTube Caption Copier</strong> lets you copy any text on a YouTube
+      video — captions, on-screen product names, model numbers, slide text, book titles — with a
+      mouse drag, keyboard shortcut, or OCR snap. No screenshots. No toggling tabs. No typos.
     </p>
 
     <div class="cta-row fade-up">
@@ -682,8 +682,8 @@
 <section id="how-it-works">
   <div class="wrap">
     <p class="section-label">Usage</p>
-    <h2>Three ways to select text</h2>
-    <p class="section-sub">Mouse, keyboard, or transcript panel — pick whatever fits the moment.</p>
+    <h2>Three ways to copy text</h2>
+    <p class="section-sub">Mouse drag, keyboard, OCR snap, or transcript panel — pick whatever fits the moment.</p>
 
     <div class="steps-list">
       <div class="step-row">
@@ -701,13 +701,22 @@
           <table class="kb-table" style="margin-top:16px;">
             <thead><tr><th>Key</th><th>Action</th></tr></thead>
             <tbody>
-              <tr><td><kbd>Shift</kbd> <kbd>←</kbd> <kbd>→</kbd></td><td>Shrink or grow selection one word at a time</td></tr>
-              <tr><td><kbd>Shift</kbd> <kbd>↑</kbd> <kbd>↓</kbd></td><td>Jump 5 words backward or forward</td></tr>
-              <tr><td><kbd>Shift</kbd> <kbd>Home</kbd> / <kbd>End</kbd></td><td>Jump to first or last word</td></tr>
+              <tr><td><kbd>Alt</kbd> <kbd>←</kbd> <kbd>→</kbd></td><td>Shrink or grow selection one word at a time</td></tr>
+              <tr><td><kbd>Alt</kbd> <kbd>↑</kbd> <kbd>↓</kbd></td><td>Jump 5 words backward or forward</td></tr>
+              <tr><td><kbd>Alt</kbd> <kbd>Home</kbd> / <kbd>End</kbd></td><td>Jump to first or last word</td></tr>
               <tr><td><kbd>Enter</kbd> or <kbd>Ctrl</kbd><kbd>C</kbd></td><td>Copy and exit keyboard mode</td></tr>
               <tr><td><kbd>Esc</kbd></td><td>Cancel without copying</td></tr>
+              <tr><td><kbd>Alt</kbd> <kbd>S</kbd></td><td>OCR snap — read all text visible in the video frame</td></tr>
             </tbody>
           </table>
+        </div>
+      </div>
+      <div class="step-row">
+        <div class="step-num">O</div>
+        <div class="step-content">
+          <h3>OCR snap — any on-screen text <span class="step-tag">✦ New in v3.0</span></h3>
+          <p>For text burnt into the video itself — product model numbers, slide content, URLs on screen — this is your tool. Press <kbd>Alt</kbd> <kbd>S</kbd> or click the 📷 button in the top-right corner of the video player. The extension snaps the current frame, reads all visible text locally on your computer, and shows a panel. <strong>Click any line to copy it.</strong> Close with ✕.</p>
+          <p style="margin-top:8px; font-size:13px; color:var(--muted);">Tip: pause the video on the clearest frame for best results.</p>
         </div>
       </div>
       <div class="step-row">
@@ -870,9 +879,9 @@
     <div class="info-box">
       <h3>🔐 Verify your download (PowerShell)</h3>
       <p style="font-family:'Courier New',monospace; font-size:13px; background:var(--dark); padding:14px 16px; border-radius:8px; color:#7DD3FC; margin-top:8px;">
-        Get-FileHash yt-caption-copier-v2.0.zip -Algorithm SHA256
+        Get-FileHash yt-caption-copier-v3.0.zip -Algorithm SHA256
       </p>
-      <p style="font-size:13.5px; color:var(--muted); margin-top:10px;">Compare the output to the hash in <code>yt-caption-copier-v2.0.zip.sha256</code>. If they match, your file is unmodified.</p>
+      <p style="font-size:13.5px; color:var(--muted); margin-top:10px;">Compare the output to the hash in <code>yt-caption-copier-v3.0.zip.sha256</code>. If they match, your file is unmodified.</p>
     </div>
   </div>
 </section>
@@ -943,7 +952,7 @@
 <footer>
   <div class="wrap">
     <p style="margin-bottom:8px;">
-      <strong style="color:var(--text);">YouTube Caption Copier</strong> &nbsp;·&nbsp; v2.0 &nbsp;·&nbsp;
+      <strong style="color:var(--text);">YouTube Caption Copier</strong> &nbsp;·&nbsp; v3.0 &nbsp;·&nbsp;
       MIT License &nbsp;·&nbsp; Free &amp; Open Source &nbsp;·&nbsp;
       <a href="mailto:bkrv1@gmail.com">bkrv1@gmail.com</a>
     </p>
