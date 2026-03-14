@@ -17,8 +17,8 @@ Copy any text from a YouTube video — captions, on-screen product names, model 
 
 ## How to Use
 
-**Step 1 — Press P**
-Press `P` on your keyboard while watching a YouTube video. The video pauses and all playback controls are locked. A tooltip appears inside the video with instructions.
+**Step 1 — Press X**
+Press `X` on your keyboard while watching a YouTube video. The video pauses and all playback controls are locked. A tooltip appears inside the video area with instructions.
 
 **Step 2 — Select text**
 Click and hold the left mouse button, then drag over any caption or on-screen text. The selected area highlights in yellow.
@@ -27,7 +27,7 @@ Click and hold the left mouse button, then drag over any caption or on-screen te
 Press `Ctrl+C` to copy. Paste anywhere with `Ctrl+V`.
 
 **Step 4 — Unlock**
-Press `P` again. The video resumes and all controls return to normal.
+Press `X` again. The video resumes from where it paused and all controls return to normal.
 
 ---
 
@@ -41,17 +41,17 @@ To scan the entire visible frame, click the 📷 button in the top-right corner 
 
 ## Tooltip
 
-The tooltip appears inside the video when you press P. Drag it by the header to move it anywhere. Click ✕ to close it. Press P three times to bring it back.
+The tooltip appears inside the video when you press X. Drag it by the header to move it anywhere. Click ✕ to close it. Press X three times to bring it back.
 
 ---
 
 ## Plugin Compatibility
 
-If the P key does not pause the video:
+If the X key does not pause the video:
 
 1. Temporarily disable other browser extensions (Adblock Plus, DuckDuckGo, etc.)
 2. Reload the YouTube page
-3. Press P again
+3. Press X again
 
 ---
 
@@ -59,8 +59,8 @@ If the P key does not pause the video:
 
 | Key | Action |
 |---|---|
-| `P` | Lock / unlock the video |
-| `P` × 3 | Reshow the tooltip |
+| `X` | Lock / unlock the video |
+| `X` × 3 | Reshow the tooltip |
 | `Ctrl+C` | Copy selected text |
 | `Ctrl+V` | Paste anywhere |
 | `Esc` | Clear selection |
@@ -82,4 +82,26 @@ If the P key does not pause the video:
 - Does not run in the background
 - All code is open source
 
-|
+| Permission | Purpose |
+|---|---|
+| `clipboardWrite` | To copy selected text to clipboard |
+| `storage` | To save the on/off preference |
+| `youtube.com` access | To read caption text displayed on the page |
+
+---
+
+## Support
+
+If this tool saves you time, consider supporting its development:
+
+[♥ Support via Razorpay](https://razorpay.me/@codemayker)
+
+---
+
+## Feedback
+
+btkrv1@gmail.com
+
+---
+
+*Free. Open source. No trackers. No ads.*
