@@ -104,7 +104,7 @@ Re-enable your other extensions after copying the text.
 
 If this tool saves you time, consider supporting its development:
 
-[♥ Buy Me a Coffee](https://buymeacoffee.com)
+[♥ Support via Razorpay](https://razorpay.me/@codemayker)
 
 ---
 
