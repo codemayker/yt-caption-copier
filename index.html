@@ -596,11 +596,11 @@
     </h1>
 
     <p class="hero-sub fade-up">
-      <strong>YouTube Caption Copier</strong> lets you copy any text from a YouTube video — captions, product names, model numbers, slide text — without retyping it. Press <kbd style="background:rgba(255,255,255,0.15);border-radius:4px;padding:1px 6px;font-size:13px;">P</kbd> to freeze the frame, drag or use keyboard to select, press Ctrl+C to copy, press P to resume.
+      <strong>YouTube Caption Copier</strong> lets you copy any text from a YouTube video — captions, product names, model numbers, slide text — without retyping it. Press <kbd style="background:rgba(255,255,255,0.15);border-radius:4px;padding:1px 6px;font-size:13px;">P</kbd> to freeze the frame, drag over the text to select it, press Ctrl+C to copy, press P to resume.
     </p>
 
     <div class="cta-row fade-up">
-      <a href="#install" class="btn btn-primary">
+      <a href="https://github.com/codemayker/yt-caption-copier/releases/download/v1.0.0/yt-caption-copier-v1.0.zip" class="btn btn-primary" download>
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1v9M4 7l4 4 4-4M2 13h12" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
         Download &amp; Install Free
       </a>
@@ -681,51 +681,35 @@
   <div class="wrap">
     <p class="section-label">Usage</p>
     <h2>How it works</h2>
-    <p class="section-sub">Four steps. Press P, select, copy, press P again.</p>
+    <p class="section-sub">Four steps. No typing. No plugins. No account.</p>
 
     <div class="steps-list">
       <div class="step-row">
         <div class="step-num">1</div>
         <div class="step-content">
-          <h3>Press P to lock the video</h3>
-          <p>Press <kbd>P</kbd> on your keyboard while watching any YouTube video. The video pauses immediately and all playback controls — keyboard shortcuts, mouse clicks on the player — are blocked. A tooltip confirms the video is locked. The frame stays exactly where it is.</p>
+          <h3>Press P to pause and lock the video</h3>
+          <p>Press <kbd>P</kbd> on your keyboard while watching any YouTube video. The video pauses immediately and all playback controls are blocked so the frame stays exactly where you need it. A tooltip appears inside the video confirming it is locked.</p>
         </div>
       </div>
       <div class="step-row">
         <div class="step-num">2</div>
         <div class="step-content">
-          <h3>Select the text you want</h3>
-          <p><strong>Mouse:</strong> Hold the left mouse button for a moment, then drag over the caption text. Words highlight in yellow as you drag.</p>
-          <p style="margin-top:8px;"><strong>Keyboard:</strong> Press <kbd>Alt</kbd><kbd>Shift</kbd><kbd>←</kbd> <kbd>→</kbd> to select one word at a time, or <kbd>Alt</kbd><kbd>Shift</kbd><kbd>↑</kbd> <kbd>↓</kbd> to jump 5 words. Works without needing CC captions visible.</p>
+          <h3>Drag to select the text</h3>
+          <p>Click and drag with your mouse over any caption text or on-screen text. The selected area highlights in yellow. For text that is part of the video image — model numbers, slide text, URLs — drag around it the same way and the extension reads it automatically.</p>
         </div>
       </div>
       <div class="step-row">
         <div class="step-num">3</div>
         <div class="step-content">
-          <h3>Copy with Ctrl+C</h3>
-          <p>Press <kbd>Ctrl</kbd><kbd>C</kbd> to copy the highlighted text to your clipboard. Paste anywhere with <kbd>Ctrl</kbd><kbd>V</kbd>. A confirmation appears briefly on screen.</p>
+          <h3>Press Ctrl+C to copy</h3>
+          <p>Press <kbd>Ctrl</kbd><kbd>C</kbd> to copy the highlighted text to your clipboard. Paste it anywhere with <kbd>Ctrl</kbd><kbd>V</kbd> — a browser search bar, a document, a chat window, anywhere Windows allows text to be pasted.</p>
         </div>
       </div>
       <div class="step-row">
         <div class="step-num">4</div>
         <div class="step-content">
-          <h3>Press P again to unlock</h3>
-          <p>Press <kbd>P</kbd> once more. The video resumes from the exact point it was paused, and all normal YouTube controls return to normal.</p>
-        </div>
-      </div>
-      <div class="step-row">
-        <div class="step-num">O</div>
-        <div class="step-content">
-          <h3>On-screen text — OCR snap <span class="step-tag">✦ Model numbers, slides, URLs</span></h3>
-          <p>For text displayed inside the video frame that is not a caption — product model numbers, slide content, URLs on screen — press <kbd>Alt</kbd><kbd>S</kbd> while the video is locked. The extension reads all visible text locally on your device and shows a panel. <strong>Click any line to copy it.</strong></p>
-          <p style="margin-top:8px; font-size:13px; color:var(--muted);">Tip: pause on the sharpest frame for best results. Works best on large, high-contrast text.</p>
-        </div>
-      </div>
-      <div class="step-row">
-        <div class="step-num">T</div>
-        <div class="step-content">
-          <h3>Transcript panel <span class="step-tag">✦ For longer passages</span></h3>
-          <p>Open YouTube's "Show transcript" panel (click <strong>⋯</strong> below the video → Show transcript). <strong>Click</strong> a word to set your starting point, then <strong>Shift+click</strong> another word to select the range. Text copies automatically.</p>
+          <h3>Press P again to resume</h3>
+          <p>Press <kbd>P</kbd> once more. The video resumes from the exact point it was paused and all normal YouTube controls return.</p>
         </div>
       </div>
     </div>
@@ -744,7 +728,11 @@
         <div class="step-num">1</div>
         <div class="step-content">
           <h3>Download the ZIP</h3>
-          <p>Click the green <strong>"Code"</strong> button at the top of this GitHub page → <strong>"Download ZIP"</strong>. Save it anywhere — your Downloads folder is fine.</p>
+          <p>Click the button below to download the extension directly. Save it anywhere — your Downloads folder is fine.</p>
+          <a href="https://github.com/codemayker/yt-caption-copier/releases/download/v1.0.0/yt-caption-copier-v1.0.zip" class="btn btn-primary" download style="display:inline-flex;align-items:center;gap:8px;margin-top:12px;text-decoration:none;">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1v9M4 7l4 4 4-4M2 13h12" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Download yt-caption-copier-v1.0.zip
+          </a>
         </div>
       </div>
       <div class="step-row">
@@ -781,7 +769,7 @@
         <div class="step-num">✓</div>
         <div class="step-content">
           <h3>You're done!</h3>
-          <p>The red extension icon appears in your Chrome toolbar. Open any YouTube video, turn on CC, and start selecting text.</p>
+          <p>The red extension icon appears in your Chrome toolbar. Open any YouTube video, press P to lock it, drag to select text, and press Ctrl+C to copy.</p>
         </div>
       </div>
     </div>
@@ -926,26 +914,48 @@
 <section id="feedback">
   <div class="wrap">
     <div class="feedback-box">
-      <p class="section-label" style="text-align:center;">Feedback &amp; Support</p>
+      <p class="section-label" style="text-align:center;">Get in Touch</p>
       <h2>We'd love to hear from you</h2>
-      <p>Found a bug? Have an idea? YouTube changed something and it broke? Or just want to say it saved you some time? Drop us a line — every message is read personally.</p>
+      <p>Found a bug, have a feature idea, or YouTube changed something and it broke? Send us a message. We may get back to you if we have updates on your request.</p>
 
-      <div style="display:flex; flex-direction:column; align-items:center; gap:10px;">
-        <a href="mailto:bkrv1@gmail.com" class="email-chip">
+      <div style="display:flex; flex-direction:column; align-items:center; gap:10px; margin-bottom:4px;">
+        <a href="mailto:btkrv1@gmail.com" class="email-chip">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="3" width="14" height="10" rx="2" stroke="#888" stroke-width="1.5"/><path d="M1 5l7 5 7-5" stroke="#888" stroke-width="1.5"/></svg>
-          bkrv1@gmail.com
+          btkrv1@gmail.com
         </a>
-        <p style="font-size:12.5px; color:var(--muted); margin:0;">We typically reply within 48 hours.</p>
       </div>
 
       <div class="feedback-types">
         <span class="chip">🐛 Bug report</span>
         <span class="chip">💡 Feature request</span>
         <span class="chip">🔧 Something broke after a YouTube update</span>
-        <span class="chip">👍 It works great</span>
         <span class="chip">🔐 Security concern</span>
-        <span class="chip">❓ General question</span>
       </div>
+
+      <div style="margin-top:36px; padding-top:32px; border-top:1px solid rgba(255,255,255,0.07); text-align:center;">
+        <p style="font-family:'Syne',sans-serif; font-size:18px; font-weight:700; color:var(--text); margin-bottom:10px;">&#9829; Support this tool</p>
+        <p style="font-size:14px; color:var(--muted); max-width:420px; margin:0 auto 20px; line-height:1.65;">This tool is free and always will be. If it saves you time, consider buying me a coffee — it helps keep the tool maintained and improving.</p>
+        <a href="https://razorpay.me/@codemayker" target="_blank" rel="noopener" class="btn btn-primary" style="display:inline-flex;align-items:center;gap:8px;text-decoration:none;">
+          &#9829; Buy Me a Coffee
+        </a>
+      </div>
+
+      <div style="margin-top:36px; padding-top:32px; border-top:1px solid rgba(255,255,255,0.07); text-align:center;">
+        <p style="font-family:'Syne',sans-serif; font-size:18px; font-weight:700; color:var(--text); margin-bottom:10px;">📢 Share it</p>
+        <p style="font-size:14px; color:var(--muted); max-width:420px; margin:0 auto 20px; line-height:1.65;">If this tool saved you time, share it with someone who would find it useful. That is the best way to support a free tool.</p>
+        <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+          <a href="https://twitter.com/intent/tweet?text=Free+Chrome+extension+that+lets+you+copy+text+from+YouTube+videos+by+dragging+over+it.+Press+P+to+lock+the+frame%2C+drag+to+select%2C+Ctrl%2BC+to+copy.+No+retyping+ever.&url=https%3A%2F%2Fcodemayker.github.io%2Fyt-caption-copier%2F" target="_blank" rel="noopener" class="btn btn-ghost" style="text-decoration:none;font-size:13px;">
+            Share on X / Twitter
+          </a>
+          <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fcodemayker.github.io%2Fyt-caption-copier%2F" target="_blank" rel="noopener" class="btn btn-ghost" style="text-decoration:none;font-size:13px;">
+            Share on LinkedIn
+          </a>
+          <a href="https://wa.me/?text=Free+Chrome+extension+to+copy+text+from+YouTube+videos+%E2%80%94+press+P+to+freeze+the+frame+and+drag+to+select.+https%3A%2F%2Fcodemayker.github.io%2Fyt-caption-copier%2F" target="_blank" rel="noopener" class="btn btn-ghost" style="text-decoration:none;font-size:13px;">
+            Share on WhatsApp
+          </a>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -956,7 +966,7 @@
     <p style="margin-bottom:8px;">
       <strong style="color:var(--text);">YouTube Caption Copier</strong> &nbsp;·&nbsp; v1.0 &nbsp;·&nbsp;
       MIT License &nbsp;·&nbsp; Free &amp; Open Source &nbsp;·&nbsp;
-      <a href="mailto:bkrv1@gmail.com">bkrv1@gmail.com</a>
+      <a href="mailto:btkrv1@gmail.com">btkrv1@gmail.com</a>
     </p>
     <p>No trackers. No ads. No nonsense. Built to solve one small problem really well.</p>
   </div>
@@ -964,4 +974,3 @@
 
 </body>
 </html>
-
